@@ -93,16 +93,19 @@ $("#movie-list").on("click", ".read-more", function () {
               </div>
               <div class="col-md-8">
                 <ul class="list-group">
-                  <li class="list-group-item">` +
+                  <li class="list-group-item"><h3>` +
 						movie.Title +
+						`</h3></li>
+                  <li class="list-group-item">Released : ` +
+						movie.Released +
 						`</li>
-                  <li class="list-group-item">` +
-						movie.Year +
-						`</li>
-                  <li class="list-group-item">` +
+                  <li class="list-group-item">Genre : ` +
 						movie.Genre +
 						`</li>
-                  <li class="list-group-item">` +
+                  <li class="list-group-item">Director : ` +
+						movie.Director +
+						`</li>
+                  <li class="list-group-item">Actors : ` +
 						movie.Actors +
 						`</li>
                 </ul>
